@@ -11,21 +11,32 @@ $(document).ready(function () {
     $(".boton-teclado").click(function (e) {
         e.preventDefault();
 
-        
         var valor = $(this).html();
+        if(valor=="C") //Borra toda la info de la calculadora
+        {
+            cadena="";
+            resultado=0;
+            $("#screen").val(0);
+            signo="";
+            numactual="";
+        }
+        else if(valor=="CE")
+        {
+            lengthcadena = cadena.length;
+            cadena = cadena.substring(0, lengthcadena - 1);
+
+            lenghtnumactual = numactual.length;
+            numactual = numactual.substring(0,lenghtnumactual-1);
+            $("#screen").val(numactual);
+
+        }
+        else{
+
         cadena += valor;
         numactual+=valor;
         $("#screen").val(numactual);
         pendiente = false;
-        
-        
-        console.log("")
-        console.log("Resultado: " + resultado);
-        console.log("Signo: " + signo);
-        console.log("Cadena: " + cadena);
-        console.log("")
-        
-
+        }
     });
     
     $(".boton-ope").click(function (e) {
@@ -63,7 +74,6 @@ $(document).ready(function () {
                     cadena="";
                 }
                 pendiente = true; //Después del signo se necesitan números
-
             }
 
             //EVITAR SIGNOS SEGUIDOS
