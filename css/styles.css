@@ -1,0 +1,85 @@
+#calc-body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 550px;
+    height: 600px;
+    background-color: aqua;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#screen-div{
+    position: relative;
+    top: 35px;
+    width: 500px;
+    height: 70px;
+}
+
+#screen{
+    height: 70px;
+    width: 475px;
+    cursor: default;
+    font-size: 30px;
+    
+}
+
+#num-keyboard{
+    position: relative;
+    float: left;
+    top: 80px;
+    left: 10px;
+    
+    height: 415px;
+    background-color: gray;
+}
+
+#ope-keyboard{
+    position: relative;
+    top: 80px;
+    right: 10px;
+    height: 415px;
+    background-color: lavender;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.button{
+    position: relative;
+    background-color: blue;
+    width: 50px;
+    height: 30px;
+    margin: 45px;
+    float: left;
+}
+
+.fila{
+    margin-top: 40px;
+    align-items: center;
+    align-content: center;
+}
+
+.boton-teclado{
+    height: 50px;
+    width: 80px;
+    margin-right: 35px;
+    font-size: 30px;
+    box-shadow: 0 0 10px;
+}
+.boton-ope{
+    margin-top: 20px;
+    width: 80px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 0 0 7px;
+}
+boton-ope::active{
+    margin-top: 20px;
+    width: 80px;
+    height: 60px;
+    font-size: 35px;
+    text-align: center;
+    align-content: center;
+}
