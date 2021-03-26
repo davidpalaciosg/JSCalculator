@@ -6,4 +6,5 @@ Basic calculator built with:
 4. Bootstrap 4
 
 Live Preview: https://davidpalaciosg.com/proyectos/JSCalculator/
+
 Website: https://davidpalaciosg.com/
