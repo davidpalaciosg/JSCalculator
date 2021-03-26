@@ -30,7 +30,6 @@ $(document).ready(function () {
 
         }
         else {
-
             cadena += valor;
             numactual += valor;
             $("#screen").val(numactual);
