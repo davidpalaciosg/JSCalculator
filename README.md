@@ -5,6 +5,6 @@ Basic calculator built with:
 3. Javascript/jQuery
 4. Bootstrap 4
 
-Live Preview: https://davidpalaciosg.com/proyectos/JSCalculator/
+Live Preview: https://davidpalaciosg.github.io/JSCalculator/
 
 Website: https://davidpalaciosg.com/
